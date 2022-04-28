@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+  
+
+body{
+
+  font-family: 'Sora';
+
+  background: #232222;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: space-around;
+
+}
+
+#heading{
+
+  font-size: 1.5em;
+
+  text-align: center;
+
+  padding-bottom: 5vh;
+
+  width: 100vw;
+
+  padding-top: 25vh;
+
+  font-weight: 600;
+
+}
+
+#joke{
+
+  font-size:0.9em;
+
+  text-align: center;
+
+  height: 15vh;
+
+}
+
+#button{
+
+  font-size: 1.2em;
+
+  text-align: center;
+
+  background: #3b3b3b;
+
+  width: fit-content;
+
+  margin-inline: auto;
+
+  cursor: pointer;
+
+  padding: 4vw;
+
+  border-radius: 2vw;
+
+}
+
+a{
+
+  color: inherit;
+
+  text-decoration: none;
+
+}
